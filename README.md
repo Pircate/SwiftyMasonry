@@ -20,6 +20,30 @@ it, simply add the following line to your Podfile:
 pod 'SwiftyMasonry'
 ```
 
+## Usage
+
+```swift
+view.mas.makeConstraints {
+    $0.top.equalTo(mas.topLayoutGuide)
+    $0.left.right.equalTo(superView)
+    $0.bottom.equalTo(superView).inset(49)
+}
+
+view.mas.makeConstraints {
+    $0.edges.equalTo(superView).insets(UIEdgeInsets(top: 10, left: 20, bottom: 30, right: 40))
+}
+
+view.mas.makeConstraints {
+    $0.center.equalTo(superView)
+    $0.size.mas.equalTo(CGSize(width: 100, height: 100))
+}
+
+view.mas.makeConstraints {
+    $0.top.equalTo(otherView.mas.bottom).offset(20)
+    $0.left.equalTo(superView).inset(15)
+}
+```
+
 ## Author
 
 Pircate, gao497868860@163.com
