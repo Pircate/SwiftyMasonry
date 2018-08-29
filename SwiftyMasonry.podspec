@@ -2,7 +2,7 @@
 Pod::Spec.new do |s|
   s.name             = 'SwiftyMasonry'
   s.version          = '0.1.0'
-  s.summary          = 'A short description of SwiftyMasonry.'
+  s.summary          = 'Swifty Masonry.'
   s.homepage         = 'https://github.com/Pircate/SwiftyMasonry'
   s.license          = { :type => 'MIT', :file => 'LICENSE' }
   s.author           = { 'Pircate' => 'gao497868860@163.com' }

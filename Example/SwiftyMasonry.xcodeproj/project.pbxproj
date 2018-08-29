@@ -303,7 +303,7 @@
 			files = (
 			);
 			inputPaths = (
-				"${SRCROOT}/Pods/Target Support Files/Pods-SwiftyMasonry_Example/Pods-SwiftyMasonry_Example-frameworks.sh",
+				"${PODS_ROOT}/Target Support Files/Pods-SwiftyMasonry_Example/Pods-SwiftyMasonry_Example-frameworks.sh",
 				"${BUILT_PRODUCTS_DIR}/Masonry/Masonry.framework",
 				"${BUILT_PRODUCTS_DIR}/SwiftyMasonry/SwiftyMasonry.framework",
 			);
@@ -314,7 +314,7 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
-			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-SwiftyMasonry_Example/Pods-SwiftyMasonry_Example-frameworks.sh\"\n";
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-SwiftyMasonry_Example/Pods-SwiftyMasonry_Example-frameworks.sh\"\n";
 			showEnvVarsInLog = 0;
 		};
 /* End PBXShellScriptBuildPhase section */
