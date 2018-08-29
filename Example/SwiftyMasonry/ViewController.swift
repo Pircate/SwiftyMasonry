@@ -2,11 +2,12 @@
 //  ViewController.swift
 //  SwiftyMasonry
 //
-//  Created by MEIEEPgAAAAAAAAAAAAAAAAAAAEwFAYIKoZIhvcNAwcECFG9aLsOIJ8oBBiUA9J/dxpeEKnAJLFAgPB+4VenInkh2+c= on 08/29/2018.
-//  Copyright (c) 2018 MEIEEPgAAAAAAAAAAAAAAAAAAAEwFAYIKoZIhvcNAwcECFG9aLsOIJ8oBBiUA9J/dxpeEKnAJLFAgPB+4VenInkh2+c=. All rights reserved.
+//  Created by Pircate on 08/29/2018.
+//  Copyright (c) 2018 Pircate. All rights reserved.
 //
 
 import UIKit
+import SwiftyMasonry
 
 class ViewController: UIViewController {
 

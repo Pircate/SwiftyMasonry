@@ -1,0 +1,24 @@
+PODS:
+  - Masonry (1.1.0)
+  - SwiftyMasonry (0.1.0):
+    - Masonry
+
+DEPENDENCIES:
+  - Masonry
+  - SwiftyMasonry (from `../`)
+
+SPEC REPOS:
+  https://github.com/cocoapods/specs.git:
+    - Masonry
+
+EXTERNAL SOURCES:
+  SwiftyMasonry:
+    :path: "../"
+
+SPEC CHECKSUMS:
+  Masonry: 678fab65091a9290e40e2832a55e7ab731aad201
+  SwiftyMasonry: 6633f46c21db8162cf6eaf30468baecaa1f8d27b
+
+PODFILE CHECKSUM: a0bafde40d2398fbcd09c024889acc9b562d4492
+
+COCOAPODS: 1.5.3

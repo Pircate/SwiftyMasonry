@@ -1,6 +1,6 @@
 # SwiftyMasonry
 
-[![CI Status](https://img.shields.io/travis/MEIEEPgAAAAAAAAAAAAAAAAAAAEwFAYIKoZIhvcNAwcECFG9aLsOIJ8oBBiUA9J/dxpeEKnAJLFAgPB+4VenInkh2+c=/SwiftyMasonry.svg?style=flat)](https://travis-ci.org/MEIEEPgAAAAAAAAAAAAAAAAAAAEwFAYIKoZIhvcNAwcECFG9aLsOIJ8oBBiUA9J/dxpeEKnAJLFAgPB+4VenInkh2+c=/SwiftyMasonry)
+[![CI Status](https://img.shields.io/travis/Pircate/SwiftyMasonry.svg?style=flat)](https://travis-ci.org/Pircate/SwiftyMasonry)
 [![Version](https://img.shields.io/cocoapods/v/SwiftyMasonry.svg?style=flat)](https://cocoapods.org/pods/SwiftyMasonry)
 [![License](https://img.shields.io/cocoapods/l/SwiftyMasonry.svg?style=flat)](https://cocoapods.org/pods/SwiftyMasonry)
 [![Platform](https://img.shields.io/cocoapods/p/SwiftyMasonry.svg?style=flat)](https://cocoapods.org/pods/SwiftyMasonry)
@@ -22,7 +22,7 @@ pod 'SwiftyMasonry'
 
 ## Author
 
-MEIEEPgAAAAAAAAAAAAAAAAAAAEwFAYIKoZIhvcNAwcECFG9aLsOIJ8oBBiUA9J/dxpeEKnAJLFAgPB+4VenInkh2+c=, gao497868860@163.com
+Pircate, gao497868860@163.com
 
 ## License
 
