@@ -18,6 +18,10 @@ it, simply add the following line to your Podfile:
 
 ```ruby
 pod 'SwiftyMasonry'
+
+or
+
+github "Pircate/SwiftyMasonry"
 ```
 
 ## Usage
