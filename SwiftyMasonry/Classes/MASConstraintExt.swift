@@ -8,7 +8,7 @@
 
 import Masonry
 
-public protocol MASConstraintRelatableTarget {
+public protocol MASConstraintRelatableTarget: class {
 }
 
 extension MASViewAttribute: MASConstraintRelatableTarget {
@@ -170,19 +170,19 @@ public extension MASConstraint {
     }
     
     @discardableResult
-    func equalTo(_ target: MASConstraintRelatableTarget) -> MASConstraint {
+    func equalTo<T: MASConstraintRelatableTarget>(_ target: T) -> MASConstraint {
         equalTo()(target)
         return self
     }
     
     @discardableResult
-    func greaterThanOrEqualTo(_ target: MASConstraintRelatableTarget) -> MASConstraint {
+    func greaterThanOrEqualTo<T: MASConstraintRelatableTarget>(_ target: T) -> MASConstraint {
         greaterThanOrEqualTo()(target)
         return self
     }
     
     @discardableResult
-    func lessThanOrEqualTo(_ target: MASConstraintRelatableTarget) -> MASConstraint {
+    func lessThanOrEqualTo<T: MASConstraintRelatableTarget>(_ target: T) -> MASConstraint {
         lessThanOrEqualTo()(target)
         return self
     }

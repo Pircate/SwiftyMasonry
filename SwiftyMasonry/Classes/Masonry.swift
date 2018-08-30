@@ -15,7 +15,7 @@ public struct Masonry<Base> {
     }
 }
 
-public protocol MasonryCompatible {
+public protocol MasonryCompatible: class {
     
     associatedtype CompatibleType
     

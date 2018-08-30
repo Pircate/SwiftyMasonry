@@ -35,7 +35,7 @@ extension CGPoint: MASValue {
 public extension Masonry where Base: MASConstraint {
     
     @discardableResult
-    func equalTo(_ value: MASValue) -> MASConstraint {
+    func equalTo<Value: MASValue>(_ value: Value) -> MASConstraint {
         base.mas_equalTo()(value)
         return base
     }
