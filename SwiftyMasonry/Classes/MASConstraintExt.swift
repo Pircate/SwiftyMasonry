@@ -170,19 +170,19 @@ public extension MASConstraint {
     }
     
     @discardableResult
-    func equalTo<T: MASConstraintRelatableTarget>(_ target: T) -> MASConstraint {
+    func equalTo(_ target: MASConstraintRelatableTarget) -> MASConstraint {
         equalTo()(target)
         return self
     }
     
     @discardableResult
-    func greaterThanOrEqualTo<T: MASConstraintRelatableTarget>(_ target: T) -> MASConstraint {
+    func greaterThanOrEqualTo(_ target: MASConstraintRelatableTarget) -> MASConstraint {
         greaterThanOrEqualTo()(target)
         return self
     }
     
     @discardableResult
-    func lessThanOrEqualTo<T: MASConstraintRelatableTarget>(_ target: T) -> MASConstraint {
+    func lessThanOrEqualTo(_ target: MASConstraintRelatableTarget) -> MASConstraint {
         lessThanOrEqualTo()(target)
         return self
     }
