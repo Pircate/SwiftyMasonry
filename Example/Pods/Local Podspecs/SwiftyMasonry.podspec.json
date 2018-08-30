@@ -1,6 +1,6 @@
 {
   "name": "SwiftyMasonry",
-  "version": "0.1.0",
+  "version": "0.1.2",
   "summary": "Swifty Masonry.",
   "homepage": "https://github.com/Pircate/SwiftyMasonry",
   "license": {
@@ -12,12 +12,13 @@
   },
   "source": {
     "git": "https://github.com/Pircate/SwiftyMasonry.git",
-    "tag": "0.1.0"
+    "tag": "0.1.2"
   },
   "platforms": {
     "ios": "8.0"
   },
   "source_files": "SwiftyMasonry/Classes/**/*",
+  "swift_version": "4.0",
   "dependencies": {
     "Masonry": [
 

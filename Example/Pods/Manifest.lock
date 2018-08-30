@@ -1,6 +1,6 @@
 PODS:
   - Masonry (1.1.0)
-  - SwiftyMasonry (0.1.0):
+  - SwiftyMasonry (0.1.2):
     - Masonry
 
 DEPENDENCIES:
@@ -17,7 +17,7 @@ EXTERNAL SOURCES:
 
 SPEC CHECKSUMS:
   Masonry: 678fab65091a9290e40e2832a55e7ab731aad201
-  SwiftyMasonry: d0766d573437c9844aa7ce9dc2f5134f444acf97
+  SwiftyMasonry: d8085ff25b49028dde71469673854c2863fd297d
 
 PODFILE CHECKSUM: a0bafde40d2398fbcd09c024889acc9b562d4492
 
