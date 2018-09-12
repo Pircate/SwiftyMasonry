@@ -43,7 +43,7 @@ view.mas.makeConstraints {
 
 view.mas.makeConstraints {
     $0.center.equalTo(superView)
-    $0.size.mas.equalTo(CGSize(width: 100, height: 100))
+    $0.size.mas.equalTo(CGSize(width: 100, height: 100)) // mas.equalTo代替mas_equalTo
 }
 
 view.mas.makeConstraints {
