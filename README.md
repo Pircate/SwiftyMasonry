@@ -12,6 +12,9 @@ To run the example project, clone the repo, and run `pod install` from the Examp
 
 ## Requirements
 
+* iOS 9.0
+* Swift 4.2
+
 ## Installation
 
 SwiftyMasonry is available through [CocoaPods](https://cocoapods.org) or [Carthage](https://github.com/Carthage/Carthage). To install
@@ -55,7 +58,7 @@ view.mas.makeConstraints {
 
 ## Author
 
-Pircate, gao497868860@163.com
+Pircate, swifter.dev@gmail.com
 
 ## License
 
